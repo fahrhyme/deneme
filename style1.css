@@ -1,0 +1,39 @@
+*{
+    margin:0;
+    padding:0;
+}
+.container{
+    background-color: grey;
+    height: 100vh;
+    background-size: 100% 100%;
+}
+.container .center{
+    position:absolute;
+    top: 80px;
+    left:50%;
+    transform: translate(-50%,-50%);
+    font-family: sans-serif;
+    user-select: none;
+    color: navy;
+    font-size: 50px;
+}
+.container .banner{
+    position: absolute;
+    top: 15%;
+    left: 55%;
+}
+.container .banner1{
+    position: absolute;
+    top: 55%;
+    left: 55%;
+}
+.container .banner2{
+    position: absolute;
+    top: 15%;
+    right: 55%;
+}
+.container .banner3{
+    position: absolute;
+    top: 55%;
+    right: 55%;
+}
